@@ -25,3 +25,7 @@ while True:
               Email => {user['email']}
               
             ''')
+        
+        
+        
+# How to check that is data finished in cursor ? 
