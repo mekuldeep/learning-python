@@ -7,5 +7,5 @@
 # null dictionary
 # methods
 
-a['name']
-a.get('name')
+# a['name']
+# a.get('name')
