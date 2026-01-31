@@ -1,3 +1,4 @@
+import pprint
 # problem
 
 # userInput = input("Enter a value : ")
@@ -33,4 +34,4 @@ var_data = {
 
 
 print(var_data)
-# pprint.pp(var_data)
+pprint.pp(var_data)
