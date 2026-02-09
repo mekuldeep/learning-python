@@ -15,8 +15,19 @@
 # f = open("test.txt", 'w')
 # f.write("Yes.. this is working")
 # f.write("Yes.. still")
-file = open('test.txt', 'r')
-print(file.read())
+# file = open('test.txt', 'w')
+# file.write("This is dummy text and yes it is working fine..")
+
+
+# Using the with statement
+# You can also use the with statement when opening a file:
+#### using with keyword
+
+with open('test.txt', 'r') as f:
+    print(f.read())
+
+
+
 
 
 # Because "r" for read, and "t" for text are the default values, you do not need to specify them.
