@@ -31,6 +31,14 @@ Basically 1D = use 1 square bracket
 # size	total elements
 
 
-print(arr3.ndim)
-print(arr3.shape)
-print(arr3.size)
+# print(arr3.ndim)
+# print(arr3.shape)
+# print(arr3.size)
+
+### Create Arrays with Built-in Functions ⭐
+
+# print(np.zeros((2,3)))
+print(np.ones((2,2)))
+
+
+
