@@ -38,7 +38,10 @@ Basically 1D = use 1 square bracket
 ### Create Arrays with Built-in Functions ⭐
 
 # print(np.zeros((2,3)))
-print(np.ones((2,2)))
+# print(np.ones((2,2)))
+
+print(np.full((4,4), 7))
+
 
 
 
