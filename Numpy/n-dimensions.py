@@ -40,7 +40,12 @@ Basically 1D = use 1 square bracket
 # print(np.zeros((2,3)))
 # print(np.ones((2,2)))
 
-print(np.full((4,4), 7))
+# print(np.full((4,4), 7))  
+
+# print(np.arange(0,10))
+
+print(np.random.rand(3))
+
 
 
 
