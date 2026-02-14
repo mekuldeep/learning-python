@@ -44,7 +44,7 @@ Basically 1D = use 1 square bracket
 
 # print(np.arange(0,10))
 
-print(np.random.rand(3))
+print(np.random.rand())
 
 
 
