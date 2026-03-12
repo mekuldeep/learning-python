@@ -23,7 +23,6 @@ arr3 = np.array([
 Basically 1D = use 1 square bracket
 2D = use 2 square brackets
 3D = use 3 square brackets
-""" 
-
+"""
 
 
