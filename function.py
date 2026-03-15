@@ -54,3 +54,30 @@ cities = ['bikaner', 'jaipur', 'jodhpur', 'jaisalmer']
 #     currentUsdValue = 92
 #     print(f"{usd_val} USD = {usd_val * currentUsdValue} INR")
 # converter(5)
+
+
+#### Function Recursion
+
+## write a recursive function to calculate the sum of first n natural numbers
+
+# def calcu_sum(val):
+#     if val == 1:
+#         return 1
+#     return val + calcu_sum(val-1)
+
+# print(calcu_sum(10))
+
+
+## Write a recursive funciton to print all elements in a list.
+# Hint use list and index as parameters
+
+
+def print_list(animals, index = 0):
+    if index == len(animals):
+        return
+    print(animals[index])
+    print_list(animals, index+1)
+
+animals = ["cat", "dog", "cow", "bull", "elephant"]
+print_list(animals)
+
