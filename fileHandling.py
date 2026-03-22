@@ -7,7 +7,7 @@
 
 ### Simple read the file
 # we can pass he number of character in the read method 
-file = open('demo.txt', 'r')
+# file = open('demo.txt', 'r')
 # print(file.read(5)) #This will only return 5 character 
 
 #We can also read a file line by line 
@@ -68,9 +68,37 @@ file = open('demo.txt', 'r')
 # file.write("This is dummy text and yes it is working fine..")
 
 
-# Using the with statement
-# You can also use the with statement when opening a file:
-#### using with keyword
+### "With" keyword is another way to open and handle file 
+### using this keyword we dont need to close the file this will handle by default
 
-# with open('test.txt', 'r') as f:
+# with open('demo.txt', 'r') as f:
 #     print(f.read())
+
+
+### deleting the file 
+### for deleting the file we need to import 'OS' module
+### using 'remove()' method of os module we can remove any of the file
+### if file not exist then it will throw an error 
+# import os
+# os.remove('sample.txt')
+
+
+### Practice Quesation
+## Quesation 1
+## create a new file 'practice.txt' using python. Add the following in it.
+## Hi Everyone
+## we are learning File I/O
+## using java
+## i like prgoramming in python
+
+# with open('practice.txt', 'w') as f:
+#     data = '''## Hi Everyone \n## we are learning File I/O \n## using java \n## i like prgoramming in java'''
+#     f.write(data)
+
+
+## Question 2
+## WAP that replace all occurance of "java" with "python" in above created file
+
+with open('practice.txt', 'r+') as f:
+    data = f.read()
+    f.write(data.replace('java', 'python'))
