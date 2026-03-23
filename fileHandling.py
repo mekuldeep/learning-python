@@ -99,6 +99,6 @@
 ## Question 2
 ## WAP that replace all occurance of "java" with "python" in above created file
 
-with open('practice.txt', 'r+') as f:
-    data = f.read()
-    f.write(data.replace('java', 'python'))
+# with open('practice.txt', 'r+') as f:
+#     data = f.read()
+#     f.write(data.replace('java', 'python'))
