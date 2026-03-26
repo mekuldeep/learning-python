@@ -25,6 +25,6 @@
 #     print(f"{num3} is biggest value")    
 
 # 3 practice question
-# num = int(input('Enter a number : '))
-# if num % 7 == 0:
-#     print(f'Yes, {num} is proper devided')
+num = int(input('Enter a number : '))
+if num % 7 == 0:
+    print(f'Yes, {num} is proper devided')
