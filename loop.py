@@ -8,5 +8,5 @@
 
 # about range   range(start(optional), stop, step)
 a = 10
-b = 15
+b = 5
 print(a^b)
