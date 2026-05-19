@@ -6,6 +6,7 @@
 # don't allow duplicate keys
 # null dictionary
 # methods
+a = {'name': 'Test', 'email': 'test@gmail.com'}
 
-# a['name']
-# a.get('name')
+print(a['name'])
+a.get('name')
