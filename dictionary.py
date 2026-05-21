@@ -8,5 +8,5 @@
 # methods
 a = {'name': 'Test', 'email': 'test@gmail.com'}
 
-print(a['name'])
-a.get('name')
+print(a['number'])
+a.get('number')
